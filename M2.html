@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mentor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron { 
+      margin-bottom: 0;
+      background-image: url("https://www.dr-ait.org/wp-content/uploads/2016/04/banner.jpg");
+      height: 250px;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+     }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+
+      
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      position: right;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding:10px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+
+<body>
+<div class="jumbotron">
+  <div class="container">
+     <div class="container text-center">
+    <h1 style="color:#EBEEF1">Dr.Ambedkar Institute of Technology</h1>      
+    <h3 style="color:#EBEEF1">Department of Information Science</h3>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="mentor1.html">Home</a></li>
+        <li class="active"> </li>
+         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Mentors <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="M1.html">Mrs.Shilpa Biradar</a></li>
+          <li><a href="M2.html">Mr.Satish.B.Basapur</a></li>
+          <li><a href="M3.html">Mrs.Vidyarani H J</a></li>
+        </ul>
+      </li>
+      </ul> 
+  </div>
+</nav>
+  
+<div class="container-fluid">    
+  <div class="row content">
+    <div class="col-sm-8 text-left"> 
+      <h1>About</h1><hr>
+      <ul> 
+        <li>Department: Information Science</li>
+        <li>Designation: Assistant Professor</li>
+       <li>Email Id: satish.basapur@dr-ait.org
+
+</li>
+      </ul>
+    
+  
+    <div class="container">
+  <p><br><br><hr>Type your Queries</p>
+  <form>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="4" id="comment"></textarea>
+    </div>
+    <div class="form-group">        
+    
+        <button type="submit" class="btn btn-default">Submit</button>
+      
+    </div>
+  </form>
+</div>
+</div>
+   
+   <div class="col-lg-2 sidenav navbar-right">  
+    <div class="well">
+      <ul>
+          <li><a href="RegistrationForm.html">Registration Form</a></li><hr>
+          <li><a href="StudentList.html">Student List</a></li>
+      </ul>
+    </div>
+   </div>
+  </div></div>
+<footer class="container-fluid text-center">
+ 
+  <div class="container">
+ <span class="glyphicon glyphicon-earphone">Contact:080-23211505</span>
+  </div>
+</footer>
+
+
+</body>
+</html>
